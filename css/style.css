@@ -1,0 +1,29 @@
+:root {
+  --text-default: #101010;
+  --text-primary: #db574d;
+  --text-muted: rgba(16, 16, 16, 0.6);
+  --text-inverse: FFFFFF;
+}
+
+body {
+  font-family: "ClashDisplay", sans-serif;
+  color: var(--text-default);
+}
+
+wrapper {
+  min-height: 100%;
+}
+
+.title {
+  position: absolute;
+  width: 944.67px;
+  height: 360px;
+  left: 140px;
+  top: 231px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 90%;
+  color: var(--text-primary);
+}
