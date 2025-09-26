@@ -1,0 +1,108 @@
+/* btn */
+.button {
+  border: 1px solid var(--text-primary);
+  border-radius: 100px;
+  padding: 16px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.button path {
+  stroke: var(--text-primary);
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--text-primary);
+  color: var(--text-inverse);
+}
+
+.button:hover path {
+  stroke: var(--text-inverse);
+}
+
+/* arrow */
+.arrow-link {
+  display: inline-flex;
+  font-size: 18px;
+  line-height: 1.2;
+  gap: 12px;
+  transition: color 0.3s;
+}
+
+.arrow-link path {
+  stroke: var(--text-default);
+  transition: stroke 0.3s;
+}
+
+.arrow-link:hover {
+  color: var(--text-primary);
+}
+
+.arrow-link:hover path {
+  stroke: var(--text-primary);
+}
+
+/* заголовок секціі */
+.block-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  gap: 10px 20px;
+}
+
+.block-header-title {
+  font-size: 100px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.title-akcent {
+  color: var(--text-primary);
+}
+
+.block-header-link {
+}
+
+@media (max-width: 991.98px) {
+  .block-header-title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .block-header-title {
+    font-size: 38px;
+  }
+}
+
+/* social */
+.menu__social {
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 30px;
+}
+.social__item {
+}
+.social__link {
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.social__link:hover {
+  color: var(--text-primary);
+}
