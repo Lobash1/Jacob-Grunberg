@@ -65,7 +65,8 @@
   text-transform: uppercase;
 }
 
-.title-akcent {
+.block-header-title span {
+  text-transform: none;
   color: var(--text-primary);
 }
 
