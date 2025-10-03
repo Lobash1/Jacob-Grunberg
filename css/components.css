@@ -50,9 +50,10 @@
 .block-header {
   display: flex;
   justify-content: space-between;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 0px;
+  justify-content: space-between;
   gap: 10px 20px;
 }
 

@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 *::before,
@@ -50,4 +51,8 @@ h6 {
 button {
   background-color: transparent;
   cursor: pointer;
+}
+
+cite {
+  font-style: normal;
 }

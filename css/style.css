@@ -30,20 +30,14 @@ body {
 
 /* ============page============================ */
 
-.page {
+.page > *:not([class*="--nomargin"]) {
+  margin-bottom: 224px;
 }
 
 .page__hero {
   margin-bottom: 160px;
 }
-.page__services {
-}
-.page__latest-work {
-}
-.page__exhibitions {
-}
-.page__lets-work {
-}
+
 .page > *:last-child {
   margin-bottom: 0;
 }
@@ -363,7 +357,7 @@ body {
   line-height: 1.6;
 }
 .author__action {
-  position: relative;
+  /* position: relative; */
   background-color: var(--text-primary);
   aspect-ratio: 1;
   width: 140px;
@@ -400,7 +394,7 @@ body {
 }
 
 .hero__body {
-  margin-left: -65.18%;
+  /* margin-left: -65.18%; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -530,8 +524,6 @@ body {
 
 /* Services */
 
-.services {
-}
 .services__container {
   position: relative;
   align-items: flex-start;
@@ -660,12 +652,6 @@ body {
 /* ===================latest work=========== */
 /* projects */
 
-.latest-works {
-}
-.latest-work__container {
-}
-.latest-work__block-header {
-}
 .latest-work__block-header:not(:last-child) {
   margin-bottom: 128px;
 }
@@ -686,10 +672,7 @@ body {
 .latest-work__column:last-child .item-work:nth-child(odd) {
   align-self: flex-end;
 }
-.latest-work__item {
-}
-.item-work {
-}
+
 .item-work__link {
   transition: color 0.3s;
 }
@@ -714,9 +697,6 @@ body {
 
 .item-work__title:not(:last-child) {
   margin-bottom: 12px;
-}
-
-.item-work__media {
 }
 
 .item-work__image {
@@ -1054,7 +1034,7 @@ body {
   line-height: 1.2;
   padding-left: 81px;
   min-height: 51px;
-  background: url("../img/icons/quote.svg") left no-repeat;
+  background: url("../img/icon/quote.svg") left no-repeat;
 }
 .item-reviews__text {
   margin-bottom: 40px;
